@@ -1,10 +1,26 @@
+body {
+  padding: 0 0 0 15px;
+}
+
 h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+}
+
 .box {
+  border: 1px solid black;
   min-height: 40px;
   min-width: 40px;
+  padding: 5px;
+  margin: 10px;
 }
 
 .pink {
@@ -17,4 +33,17 @@ h1 {
 
 .green {
   background: green;
+}
+
+button {
+  background-color: #ffe4b5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /* border: .5px solid black; */
+}
+
+button:hover {
+  background-color: #ffefd5;
+  /* border: .5px solid black; */
 }
