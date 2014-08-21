@@ -11,13 +11,40 @@
 </head>
 <body>
   <h1>Objects</h1>
-  <p>An object in JavaScript can be thought of as a collection of name-value pairs, where a unique name maps to a certain value</p>
-  <p></p>
-  <p></p>
-  <p></p>
+  <p>An object in JavaScript can be thought of as a collection of name-value pairs</p>
+  <p>Similar structures, called hashes, exist in other languages, such as C, Java, and Ruby.</p>
+  <p>The "name" part is a string, and the value can be any value, including other objects.</p>
+  <p>This allows you to build data structures of arbitrary complexity.</p>
+  </br>
+  <p>There are two ways to create an object:</p>
+  <div class="pure-g">
+    <div class="pure-u-1-2">
+    <blockquote><pre> var obj = { }</pre></blockquote>
+    </div>
+  </div>
+  <p>and</p>
+  <div class="pure-g">
+    <div class="pure-u-1-2">
+    <blockquote>
+  <pre>
+  function Person(name, age)
+  {
+    this.name = name;
+    this.age = age;
+  }</pre>
+    </blockquote>
+    </div>
+  </div>
+  </br>
+  <p>Now create a new instance of a person object:</p>
+  <div class="pure-g">
+  <div class="pure-u-1-2">
+    <blockquote><pre> var you = new Person("Mack", 30);</pre></blockquote>
+  </div>
+  </div>
   <footer>
   <a class="pure-button" href="bool.html">Prev</a>
-  <a class="pure-button" href="bool.html">Next</a>
+  <a class="pure-button" href="../index.html">Next</a>
   </footer>
 </body>
 </html>
