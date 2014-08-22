@@ -5,3 +5,9 @@ numbers
 arrays
 hash
 
+run this app at the command line with 
+
+$ rackup
+
+and navigate on over to localhost:9292
+
