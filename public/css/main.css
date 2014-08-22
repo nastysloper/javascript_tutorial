@@ -10,11 +10,6 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-a {
-  font-family: 'Source Sans Pro', sans-serif;
-  text-decoration: none;
-}
-
 .box {
   border: 1px solid black;
   min-height: 40px;
@@ -49,7 +44,7 @@ button:hover {
 }
 
 li {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Code Pro';
 }
 
 ul {
@@ -58,9 +53,15 @@ ul {
 
 blockquote {
   background-color: #ccffff;
-  padding: 5px;
+  padding: 10px;
+  font-family: 'Source Code Pro';
 }
 
-.blockquote {
-  padding-left: 10px;
+.normal-text {
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
+footer {
+  padding: 0 0 20px 0;
+}
+
